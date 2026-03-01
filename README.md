@@ -51,8 +51,8 @@ Example usage
 
 Bash
 
-chmod +x heartbeat.sh
-./heartbeat.sh https://example.com 10
+    chmod +x heartbeat.sh
+    ./heartbeat.sh https://example.com 10
 
 This will check https://example.com every 10 seconds and print whether it’s up or down.
 
