@@ -6,11 +6,11 @@ heartbeat.sh and hb2.sh  say node1 and node2
 
 #!/bin/bash
 # heartbeat.sh - Simple heartbeat check using wget
-# Usage: ./heartbeat.sh http://10.165.200.221 20
+# Usage: ./heartbeat.sh  <URL> <INTERVAL_SECONDS>
 
 # Validate arguments
 if [ $# -ne 2 ]; then
-    echo "Usage: $0 http://10.165.200.221 20"
+    echo "Usage: $0 http://192.168.1.254 20"
     exit 1
 fi
 
