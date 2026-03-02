@@ -2,7 +2,7 @@ If you want to implement a simple heartbeat check using the wget command (for ex
 
 Here’s a complete, safe, and runnable example:
 
-heartbeat.sh and hb2.sh  say node1 and node2
+heartbeat.sh and hb2.sh  say node1 and node2  ...
 
 
     #!/bin/bash
